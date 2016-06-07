@@ -23,7 +23,7 @@
         <tabs>
           <tab id="tab1" label="Excel DNA Project">
             <group id="group1" label="group">
-              <button id="button"  label="Show CTP" onAction="RunTagMacro" tag="Show" />
+              <button id="button"  label="Show CTP" onAction="Show" />
             </group>
           </tab>
         </tabs>

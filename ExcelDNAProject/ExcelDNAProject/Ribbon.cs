@@ -8,7 +8,7 @@ namespace ExcelDNAProject
 {
     public class Ribbon : ExcelRibbon
     {
-        public static void Show()
+        public  void Show(IRibbonControl control)
         {
            UserControlCTP uc=new UserControlCTP();
            CustomTaskPane ctp = CustomTaskPaneFactory.CreateCustomTaskPane(uc, "Hello");
